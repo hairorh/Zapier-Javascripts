@@ -1,0 +1,6 @@
+var uname = inputData.uname;
+var astr = uname.replace(/á/g, 'a');
+var estr = astr.replace(/é/g, 'e');
+var istr = estr.replace(/í/g, 'i');
+var ostr = istr.replace(/ó/g, 'o');
+var ustr = ostr.replace(/ú/g, 'u');
