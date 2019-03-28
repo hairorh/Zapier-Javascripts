@@ -1,0 +1,15 @@
+var lineItems = inputData.lineItems;
+var a = lineItems.replace("AR", "Argentina");
+var b = a.replace("CL", "Chile");
+var c = b.replace("CO", "Colombia");
+var d = c.replace("CR", "Costa Rica");
+var e = d.replace("DE", "Germany");
+var f = e.replace("DO", "Dominican Republic");
+var g = f.replace("EC", "Ecuador");
+var h = g.replace("ES", "Spain");
+var i = h.replace("MX", "Mexico");
+var j = i.replace("PA", "Panama");
+var k = j.replace("US", "United States");
+var l = k.replace("VE", "Venezuela");
+
+output = {lineItems:l};
