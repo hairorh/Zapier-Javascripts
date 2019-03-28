@@ -1,0 +1,9 @@
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+if (inputData.mname == null){
+    return {fname:capitalizeFirstLetter(inputData.fname), mname:"",  lname:capitalizeFirstLetter(inputData.lname)};
+}
+
+return {fname:capitalizeFirstLetter(inputData.fname), mname:capitalizeFirstLetter(inputData.mname), lname:capitalizeFirstLetter(inputData.lname)};
